@@ -4,12 +4,11 @@
 nav .myButton {
     background-color:transparent;
     border-radius:42px;
-    border:10px solid #ffaa22;
+    border:10px solid #FA86E2;
     display:inline-block;
     overflow: hidden;
     cursor:pointer;
-    color:#333333;
-    font-family:Arial;
+    color:#3C39DB;
     font-size:15px;
     font-weight:bold;
     padding:17px 24px;
@@ -42,6 +41,8 @@ ul .nav1 {
 body { 
     font-family: 'Press Start 2P', cursive;
     font-size: 16px;
+    color: #3C39DB;
+    background-color: #F1E9FE;
      }
 
 h1, h2, h3, h4 {
@@ -74,10 +75,33 @@ header {margin-bottom: 20px;}
 img { width: 100%; }
 
 a { 
-    color: red;
+    color: #3C39DB;
     text-decoration: none;
      }
 a:hover { color: black; }
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #FA86E2;
+  color: #3C39DB; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+  font-family: 'press start 2P', cursive;
+
+}
+
+#myBtn:hover {
+  background-color: #F1E9FE; 
+}
+
 
 .grid {
     display: grid;
@@ -91,9 +115,32 @@ a:hover { color: black; }
     background-color: #ccc;
     padding: 20px;
 }
+.care {
+    padding: 10px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.about
+{ padding: 10px;
+    line-height: 20px;
+    font-size: 15px;
 
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}
+
+footer 
+{
+    text-align: center;
+    padding: 30px;
+}
 @media only screen and (min-width:768px) {
-
+ 
 }
 
 @media only screen and (min-width:1224px) {
