@@ -1,16 +1,58 @@
 /* Enter your Styles below! */
 
+
+nav .myButton {
+    background-color:transparent;
+    border-radius:42px;
+    border:10px solid #ffaa22;
+    display:inline-block;
+    overflow: hidden;
+    cursor:pointer;
+    color:#333333;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:17px 24px;
+    text-decoration:none;
+    font-family: 'Press Start 2P', cursive;
+}
+.myButton:hover {
+    background-color:transparent;
+}
+.myButton:active {
+    position:relative;
+    top:10px;
+}
+li {
+    display: inline;
+    
+}
+ul .nav1 {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.intro 
+{
+    line-height: 60px;
+    padding: 40px;
+    text-align: center;
+}
+
 body { 
-    font-family: Helvetica, sans-serif;
+    font-family: 'Press Start 2P', cursive;
     font-size: 16px;
      }
 
 h1, h2, h3, h4 {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Press Start 2P', cursive;
 }
 
 h1 {
     font-size: 48px;
+    text-align: center;
+    padding: 30px;
+
 }
 
 h2 {
@@ -24,10 +66,7 @@ h4 {
     font-size: 24px;
 }
 
-blockquote {
-    margin: 20px 60px;
-    font-family: Helvetica, sans-serif;
-}
+
 
 header {margin-bottom: 20px;}
 
